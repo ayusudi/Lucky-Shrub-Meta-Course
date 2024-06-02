@@ -1,0 +1,183 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+  }
+
+  nav {
+    background-color: #405A34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 5px;
+  }
+
+  .links {
+    display: flex;
+    gap: 16px;
+    padding: 5px;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #C8D26F;
+  }
+
+  main {
+    background-color: #96BF6C;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+
+  #promotion {
+    background: url("./asset/garden-promotion.jpeg") no-repeat;
+    background-size: cover;
+    color: white;
+    width: auto;
+    height: 42vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 50px;
+  }
+
+  #content {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+  }
+
+  .card {
+    background-color: #C8D26F;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card h5 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .card p {
+    text-align: center;
+    padding: 0 10%;
+
+  }
+
+  .waters {
+    display: flex;
+    gap: 10px;
+  }
+
+  footer {
+    background-color: #88A5A1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px
+  }
+
+  .imageproduct {
+    width: 300px;
+    height: 200px;
+    object-fit: 'cover';
+    border-radius: 8px;
+  }
+
+  #content-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  #content-products .card {
+    background-color: #C8D26F;
+    width: 380px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0;
+  }
+
+  #aboutus {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2% 10%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  #aboutus img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  main#locations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    color: #405A34;
+  }
+
+  #location-details {
+    display: flex;
+    flex-wrap: wrap;
+    color: #405A34;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-sizing: border-box;
+
+  }
+
+  #location-details .card {
+    justify-content: space-around;
+    align-items: start;
+    height: 200px;
+    width: 320px;
+    box-sizing: border-box;
+  }
+
+  #location-details .card p {
+    text-align: left;
+    box-sizing: border-box;
+
+  }
