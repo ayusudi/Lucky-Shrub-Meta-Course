@@ -5,105 +5,112 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lucky Shrub</title>
+  <link rel="shortcut icon" href="./asset/asset-3.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/e3810b7247.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav>
-    <div>
-      <img src="./asset/asset-3.png" alt="logo" id="logo">
-    </div>
-    <div class="links">
-      <p onclick="onClickAnchor('homepage')">Home Page</p>
-      <p onclick="onClickAnchor('products')">Products</p>
-      <p onclick="onClickAnchor('aboutus')">About Us</p>
-      <p onclick="onClickAnchor('locations')">Locations</p>
-    </div>
-  </nav>
-  <main id="homepage">
-    <div id="promotion">
-      <h2>JUNE PROMO : DISCOUNT UP TO 60%</h2>
-    </div>
-    <div id="content">
-      <div class="card">
-        <h5>Frequent Watering </h5>
-        <div class="waters">
-          <i class="fa-2xl fa-solid fa-droplet"></i><i class="fa-2xl fa-solid fa-droplet"></i><i
-            class="fa-2xl fa-solid fa-droplet"></i>
-        </div>
-        <p>Frequent watering means providing water to the plant often, typically daily or every other day.</p>
+  <header>
+    <nav>
+      <div>
+        <img src="./asset/asset-3.png" alt="logo" id="logo">
       </div>
-      <div class="card">
-        <h5>Average Watering </h5>
-        <div class="waters">
-          <i class="fa-2xl fa-solid fa-droplet"></i><i class="fa-2xl fa-solid fa-droplet"></i>
+      <div class="links">
+        <a href="/">Home Page</a>
+        <a href="/?page=products">Products</a>
+        <a href="/?page=aboutus">About Us</a>
+        <a href="/?page=locations">Locations</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="homepage">
+      <div id="promotion">
+        <h2>JUNE PROMO : DISCOUNT UP TO 60%</h2>
+      </div>
+      <div id="content">
+        <div class="card">
+          <h5>Frequent Watering </h5>
+          <div class="waters">
+            <i class="fa-2xl fa-solid fa-droplet"></i><i class="fa-2xl fa-solid fa-droplet"></i><i
+              class="fa-2xl fa-solid fa-droplet"></i>
+          </div>
+          <p>Frequent watering means providing water to the plant often, typically daily or every other day.</p>
         </div>
-        <p>Average watering involves watering the plants less frequently, often once or twice a week, depending on the
-          weather and soil conditions.</p>
+        <div class="card">
+          <h5>Average Watering </h5>
+          <div class="waters">
+            <i class="fa-2xl fa-solid fa-droplet"></i><i class="fa-2xl fa-solid fa-droplet"></i>
+          </div>
+          <p>Average watering involves watering the plants less frequently, often once or twice a week, depending on the
+            weather and soil conditions.</p>
 
-      </div>
-      <div class="card">
-        <h5>Infrequent Watering </h5>
-        <div class="waters">
-          <i class="fa-2xl fa-solid fa-droplet"></i>
         </div>
-        <p> Ideal for drought-tolerant plants like succulents, cacti, and certain Mediterranean herbs (e.g., rosemary,
-          lavender).</p>
+        <div class="card">
+          <h5>Infrequent Watering </h5>
+          <div class="waters">
+            <i class="fa-2xl fa-solid fa-droplet"></i>
+          </div>
+          <p> Ideal for drought-tolerant plants like succulents, cacti, and certain Mediterranean herbs (e.g., rosemary,
+            lavender).</p>
+        </div>
       </div>
-    </div>
-  </main>
-  <main id="products">
-    <div id="content-products">
-    </div>
-  </main>
-  <main id="aboutus">
-    <h1>About Us</h1>
-    <img id="tv"
-      src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/WOH/LYG6-97.jpg"
-      alt="image" />
-    <p>
-      Welcome to Lucky Shrub Online, where our passion for gardening meets the digital age! As gardening TV experiences
-      a surge in popularity, spearheaded by beloved hosts like Titchmarsh and Domoney, we saw an opportunity to bring
-      the joy and beauty of gardening right to your doorstep.
-      <br />
-      <br />
-      With shows like BBC Gardeners World and Chelsea, as well as ITV's Love Your Garden captivating audiences, we
-      recognize the growing interest in transforming outdoor spaces into personal oases of greenery and tranquility.
-      Inspired by this trend, we decided to launch Lucky Shrub Online, your one-stop shop for premium plants and
-      gardening essentials.
-      <br />
-      <br />
-      At Lucky Shrub, we believe that everyone deserves a slice of green paradise, whether you're an experienced
-      gardener or just beginning your journey. Our carefully curated selection of plants caters to all tastes and
-      preferences, from vibrant blooms to lush foliage, ensuring there's something for every garden enthusiast.
-      <br />
-      <br />
-      Backed by a team of passionate horticulturists and gardening experts, we are committed to providing top-quality
-      plants and exceptional service. Whether you're sprucing up your balcony, adding life to your office space, or
-      creating a vibrant backyard retreat, Lucky Shrub Online is here to help you cultivate your green dreams.
-      <br />
-      <br />
-      Join us in embracing the gardening revolution and let Lucky Shrub Online be your trusted partner in bringing the
-      beauty of nature into your life. Happy gardening!
-    </p>
-  </main>
-  <main id="locations">
-    <div>
-      <img style="width: 320px; height: 500px; object-fit: cover;"
-        src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg" alt="map">
-    </div>
-    <div style="display: flex; flex-direction: column; align-items: space-between;">
-      <h1 style="padding-bottom: 20px;">Locations</h1>
-      <div id="location-details">
+    </section>
+    <section id="products">
+      <div id="content-products">
       </div>
-    </div>
+    </section>
+    <section id="aboutus">
+      <h1>About Us</h1>
+      <img id="tv"
+        src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/WOH/LYG6-97.jpg"
+        alt="image" />
+      <p>
+        Welcome to Lucky Shrub Online, where our passion for gardening meets the digital age! As gardening TV
+        experiences
+        a surge in popularity, spearheaded by beloved hosts like Titchmarsh and Domoney, we saw an opportunity to bring
+        the joy and beauty of gardening right to your doorstep.
+        <br />
+        <br />
+        With shows like BBC Gardeners World and Chelsea, as well as ITV's Love Your Garden captivating audiences, we
+        recognize the growing interest in transforming outdoor spaces into personal oases of greenery and tranquility.
+        Inspired by this trend, we decided to launch Lucky Shrub Online, your one-stop shop for premium plants and
+        gardening essentials.
+        <br />
+        <br />
+        At Lucky Shrub, we believe that everyone deserves a slice of green paradise, whether you're an experienced
+        gardener or just beginning your journey. Our carefully curated selection of plants caters to all tastes and
+        preferences, from vibrant blooms to lush foliage, ensuring there's something for every garden enthusiast.
+        <br />
+        <br />
+        Backed by a team of passionate horticulturists and gardening experts, we are committed to providing top-quality
+        plants and exceptional service. Whether you're sprucing up your balcony, adding life to your office space, or
+        creating a vibrant backyard retreat, Lucky Shrub Online is here to help you cultivate your green dreams.
+        <br />
+        <br />
+        Join us in embracing the gardening revolution and let Lucky Shrub Online be your trusted partner in bringing the
+        beauty of nature into your life. Happy gardening!
+      </p>
+    </section>
+    <section id="locations">
+      <div>
+        <img style="width: 320px; height: 500px; object-fit: cover;"
+          src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg"
+          alt="map">
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: space-between;">
+        <h1 style="padding-bottom: 20px;">Locations</h1>
+        <div id="location-details">
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <img src="./asset/asset-3.png" alt="logo" id="logo">
     <p>Copyright Coursera Asset 2024</p>
   </footer>
+  <script src="./index.js"></script>
 </body>
-<script src="index.js"></script>
 
 </html>

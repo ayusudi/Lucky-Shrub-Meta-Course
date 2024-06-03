@@ -1,6 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
   * {
     margin: 0;
     padding: 0;
@@ -29,16 +28,17 @@
     padding: 5px;
   }
 
-  .links p {
+  .links a {
     color: #ffffff;
     text-decoration: none;
   }
 
   a:hover {
     color: #C8D26F;
+    cursor: pointer;
   }
 
-  main {
+  section {
     background-color: #96BF6C;
     width: 100vw;
     display: flex;
@@ -145,7 +145,7 @@
     object-fit: contain;
   }
 
-  main#locations {
+  #locations {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -180,11 +180,8 @@
   #location-details .card p {
     text-align: left;
     box-sizing: border-box;
-
   }
 
-  main#aboutus,
-  main#products,
-  main#locations {
-    display: none;
+  .card:hover {
+    transform: translateY(-6px);
   }
