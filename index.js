@@ -13,7 +13,7 @@ function loadPage() {
 }
 
 function fetchData() {
-  fetch('/data/dataProducts.json')
+  fetch('https://ayusudi.github.io/Lucky-Shrub-Meta-Course/data/dataProducts.json')
     .then(data => data.json())
     .then(dataProducts => {
       let content = document.getElementById("content-products");
@@ -23,7 +23,7 @@ function fetchData() {
       })
     })
     .then(() => {
-      return fetch('/data/dataLocations.json')
+      return fetch('https://ayusudi.github.io/Lucky-Shrub-Meta-Course/data/dataLocations.json')
     })
     .then(data => data.json())
     .then(dataLocations => {
